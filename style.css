@@ -31,6 +31,7 @@ nav{
     margin-left: 15px;
     font-size: 13px;
     color: #c4c4c4;
+    /* justify-content: space-between; */
 
 }
 .nav-country h1{
@@ -38,7 +39,7 @@ nav{
     font-size: 14px;
    
 }
-.nav search{
+.nav-search{
     flex: 1;
     display: flex;
     align-items: center;
@@ -49,7 +50,7 @@ nav{
     margin-left: 15px;
 
 }
-.nav-search-country{
+.nav-search-category{
     display: flex;
     align-items: center;
     padding: 10px 20px;
@@ -73,3 +74,37 @@ nav{
     border:0 4px 4px 0;
 
 }
+.nav-language{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    font-size: 600;
+    margin-left: 15px;
+
+}
+.nav-text{
+    margin-left: 15px;
+
+}
+.nav-text p{
+    font-size: 10px;
+
+}
+.nav-text h1{
+    font-size: 14px;
+}
+.nav-cart{
+    display: flex;
+    align-items: center;
+    margin: 0px 15px;
+}
+.nav-bottom{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 8px 20px;
+    background: ;
+}
+    
+
+
